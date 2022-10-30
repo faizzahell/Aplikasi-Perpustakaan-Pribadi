@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Bookself Apps</title>
+</head>
+<body>
+    <header>
+        <div class="container-bookself_Apps">
+            <div class="wrapper-title">
+                <h1>Bookself Apps<span>.</span></h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-bookself_Apps">
+            
+            <article>   
+                <h2>Selamat Datang, Faizahel <span>!!!</span></h2>
+                <p>Membaca buku merupakan jembatan ilmu yang bermanfaat untuk mencapai masa depan kita. Semoga dengan membaca buku kita dapat memperluas cakrawala sehingga mampu untuk mengantarkan kita pada masa depan yang lebih baik. Dengan menggunakan <b>"Bookself Apps"</b> kita dimudahkan untuk membuat notes baru mengenai buku yang sedang kita baca. Kita dapat mengingat kembali dengan fitur yang terdapat pada kesempatan ini. Happy Reading :)</p>
+            </article>
+            <div class="container-shadow" id="add-book">
+                <from class="from" action="#" id="from">
+                    <div class="wrapper-from">
+                        <div class="from_family">
+                            <div class="container-header">
+                                <h2>Notes Buku Yang Anda Baca</h2>
+                            </div>
+                        </div>
+                        <form class="container-from" action="#" id="container-from">
+                            <div class="from_family one">
+                                <label for="title">Masukkan Judul Buku</label>
+                                <input type="text" id="title" name="title" required>
+                            </div>
+                            <div class="from_family two">
+                                <label for="author">Masukkan Penulis Buku</label>
+                                <input type="text" id="author" name="author" required>
+                            </div>
+                            <div class="from_family three">
+                                <label for="year">Masukkan Tahun Terbit</label>
+                                <input type="number" id="year" name="year" required>
+                            </div>
+                            <div class="from_family four">
+                                <label for="date">Rencana Selesai Membaca</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <input type="submit" value="submit" name="submit" class="btn-submit" id="submit"/>
+                        </form>
+                    </div>
+                </from>
+            </div>
+
+            <div class="container-shadow">
+                <div class="wrapper-from">
+                    <div class="from_family">
+                        <div class="container-header">
+                            <h2>Buku Yang Belum Selesai Dibaca</h2>
+                        </div>
+                    </div>
+                    <div class="list-item" id="books"></div>
+                </div>
+            </div>
+
+            <div class="container-shadow">
+                <div class="wrapper-from">
+                    <div class="from_family">
+                        <div class="container-header">
+                            <h2>Buku Yang Sudah Selesai Dibaca</h2>
+                        </div>
+                    </div>
+                    <div class="list-item" id="completed-books"></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="assets/js/script.js" type="text/javascript"></script>
+</body>
+</html>

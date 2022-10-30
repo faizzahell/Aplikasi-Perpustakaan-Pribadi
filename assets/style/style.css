@@ -1,0 +1,179 @@
+*, body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container-bookself_Apps {
+    padding: 20px 0 20px 0;
+}
+.wrapper-title {
+    padding: 20px;
+    background-color: #786ef9;
+}
+.wrapper-title h1 {
+    background-color: #786ef9;
+    color: white;
+    text-align: center;
+}
+.wrapper-title h1 span {
+    color: #ff9a0d;
+    background-color: #786ef9;
+}
+article {
+    padding: 10px 40px;
+}
+article h2 {
+    color: #028174;
+    font-size: 34px;
+}
+article h2 span {
+    color: #ff9a0d;
+}
+article p {
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    color: #8fa5b2;
+}
+.container-header{
+    background-color: white;
+}
+.container-header h2 {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 25px;
+    background-color: #ff9a0d;
+    border-radius: 8px;
+    color: white;
+    width: fit-content;
+}
+.container-shadow {
+    padding: 40px 150px;
+}
+.shadow {
+    display: flex;
+    margin: 40px 70px;
+    padding: 25px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+}
+.list-item {
+    color: mediumpurple;
+}
+.list-item h1 {
+    background-color: aliceblue;
+}
+.list-item p {
+    font-size: 18px;
+    background-color: aliceblue;
+}
+.check-button {
+    background: url('../img/checklist-front.png');
+    background-size: contain;
+    width: 53px;
+    height: 53px;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+.undo-button {
+    background: url('../img/turn-front.png');
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+.trash-button {
+    background: url('../img/trash-can-front.png');
+    background-size: contain;
+    width: 38px;
+    height: 38px;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+}
+.wrapper-from {
+    background-color: white;
+    padding: 20px 0 90px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+}
+.from_family {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: white;
+    color: mediumpurple;
+}
+.container-from {
+    padding-left: 50px;
+}
+#title, #author, #year, #date {
+    display: flex;
+    width: 100%;
+    margin-top: 7px;
+    color: darkslategrey;
+    padding: 15px 27px;
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-color: #786ef9;
+}
+.one {
+    margin: 70px 120px 0 0;
+}
+.two {
+    margin: 70px 120px 0 0;
+}
+.three {
+    margin: 70px 120px 0 0;
+}
+.four {
+    margin: 40px 120px 26px 0;
+}
+.btn-submit {
+    float: right;
+    margin: 10px 60px;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #786ef9;
+    border-color: #786ef9;
+    cursor: pointer;
+}
+.btn-submit:hover {
+    color: white;
+    border-color: white;
+    background-color: #786ef9;
+    transition: all ease-in-out 200ms;
+}
+@media (max-width: 990px){
+    .container-shadow {
+        padding: 40px;
+    } 
+    .shadow {
+        margin: 40px 20px;
+    }
+    .list-item h1 {
+        font-size: 20px;
+    }
+    .list-item p {
+        font-size: 13px;
+    }
+    .check-button {
+        width: 35px;
+        height: 35px;
+    }
+    .undo-button,
+    .trash-button {
+        width: 25px;
+        height: 25px;
+    }
+}
+
